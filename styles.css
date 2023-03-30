@@ -1,1 +1,16 @@
 /*  your css code here. If applicable */
+img {
+	min-width: 20px;
+	height:100px;
+}
+
+div{
+	display: flex;
+	gap:10px;
+}
+img{
+	flex-shrinks: 1;
+}
+img:hover{
+	flex-grow: 1;
+}
